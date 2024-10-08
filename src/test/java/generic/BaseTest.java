@@ -114,7 +114,7 @@ public class BaseTest implements IAutoConst{
 			Reporter.log(testName + " TestCase is Passed , Hence screenshot is not taken" + " & the TestCase status is = " + testStatus , true);
 		}
 		driver.quit();
-		Reporter.log("Browser is closed" , true);
+		Reporter.log("Browser is closed :" , true);
 	}
 }
 
