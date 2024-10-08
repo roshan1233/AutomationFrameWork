@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Local : Firefox Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL : https://pos.aksharatraining.in/pos/public/]]>
+    </line>
+    <line>
+      <![CDATA[Set ITO : 9]]>
+    </line>
+    <line>
+      <![CDATA[Set ETO : 7]]>
+    </line>
+    <line>
+      <![CDATA[inside test]]>
+    </line>
+    <line>
+      <![CDATA[loginTest]]>
+    </line>
+    <line>
+      <![CDATA[1]]>
+    </line>
+    <line>
+      <![CDATA[loginTest TestCase is Passed , Hence screenshot is not taken & the TestCase status is = 1]]>
+    </line>
+    <line>
+      <![CDATA[Browser is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-08T18:44:00 IST" name="Suite" finished-at="2024-10-08T18:44:16 IST" duration-ms="16516">
+    <groups>
+    </groups>
+    <test started-at="2024-10-08T18:44:00 IST" name="Test" finished-at="2024-10-08T18:44:16 IST" duration-ms="16516">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@647e447]" started-at="2024-10-08T18:44:00 IST" name="beforeMethod" finished-at="2024-10-08T18:44:11 IST" duration-ms="11153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://192.168.100.84:4444]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://pos.aksharatraining.in/pos/public/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Local : Firefox Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Enter URL : https://pos.aksharatraining.in/pos/public/]]>
+            </line>
+            <line>
+              <![CDATA[Set ITO : 9]]>
+            </line>
+            <line>
+              <![CDATA[Set ETO : 7]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:1, instance:script.ValidLogin@647e447]" started-at="2024-10-08T18:44:11 IST" name="loginTest" finished-at="2024-10-08T18:44:14 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[inside test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@647e447]" started-at="2024-10-08T18:44:14 IST" name="afterMethod" finished-at="2024-10-08T18:44:16 IST" duration-ms="1568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=ValidLogin.loginTest()[pri:1, instance:script.ValidLogin@647e447] output=inside test]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginTest]]>
+            </line>
+            <line>
+              <![CDATA[1]]>
+            </line>
+            <line>
+              <![CDATA[loginTest TestCase is Passed , Hence screenshot is not taken & the TestCase status is = 1]]>
+            </line>
+            <line>
+              <![CDATA[Browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

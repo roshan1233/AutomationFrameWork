@@ -1,0 +1,15 @@
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="grid" value="no"/>
+	  <parameter name="gridUrl" value=""/>
+	  <parameter name ="browser" value="chrome"/>
+	  <parameter name="env" value="./qa_env.properties"/>
+    <package>
+      <package name="script"/>
+      <classes>
+      <class name="script.ValidLogin"/>
+    </classes>
+    </package>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
